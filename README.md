@@ -1,13 +1,13 @@
 # TP-3-Calculo-de-edad-
 
 
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
 
 namespace ConsoleApplication2
 {
@@ -16,16 +16,15 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
 
-        
             Console.WriteLine("Hola, en que año naciste? ");
-            String año = Console.ReadLine();
+            int año;
 
-            año = Convert.ToInt32(Console.ReadLine);
+            año = Convert.ToInt32(Console.ReadLine());
 
             int edad = (2026 - año);
 
             Console.Write("Si naciste en el año " + año + " tu edad al comenzar el año es de " + edad + " años.");
-       
+
         }
     }
-} 
+}
